@@ -23,7 +23,7 @@ export class SubmitFeedbackUseCase {
         `<div style="font-family: sans-serif; font-size: 16px; color: #111;">`,
         `<p>Tipo de feedback: ${type}</p>`,
         `<p>Comentário: ${comment}</p>`,
-        screenshot && `<img src="${screenshot}" />`,
+        screenshot && `<img src="${screenshot}" style="align:center;width:50%" />`,
         `</div>`
       ].join('\n')
     })
